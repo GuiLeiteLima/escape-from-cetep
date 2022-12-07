@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    background-image: url(fundo3.jpg);
+    background-repeat: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
+    width: 100%;
+    min-height: 100vh;
+}
+
+.corpo{
+    margin: 0;
+    background-image: url(fundo4.jpg);
+    background-repeat: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
+    width: 100%;
+    min-height: 100vh;
+}
+
+a{
+    
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    position: absolute;
+}
+p{
+    color: white;
+    position: absolute;
+    left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.voltar{
+    top: 1%;
+    left: 1%;
+    background: white;
+    width: 0px;
+    height: 3px;
+    padding:0px 0px;
+    border-radius: 10px;
+    position: absolute;
+    transition: 0.5s;
+}
+.voltar:hover{
+    top: 1%;
+    left: 1%;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+    width: 68px;
+    height: 3px;
+    padding:1px 1px;
+    border-radius: 10px;
+    position: absolute;
+    transition: 0.5s;
+
+}
+
+
+#historia{
+    background-color: transparent;
+    backdrop-filter: blur(10px) ;
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 3px 3px;
+    transition: 0.3s;
+}
+#historia:hover{
+    padding: 5px 5px;
+    transition: 0.3s;
+    border: 1px solid rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+}
+
+
+.config{
+    top: 20%;
+    left: 35%;
+    position: absolute;
+    background-color: rgb(255, 0, 0) ;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+#requisitos{
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 3px 3px;
+    transition: 0.3s;
+}
+#requisitos:hover{
+    padding: 5px 5px;
+    transition: 0.3s;
+    border: 1px solid rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+}
+
+#download{
+    position: absolute;
+    left: 56.5%;
+    top: 50%;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 3px 3px;
+    transition: 0.3s;
+}
+#download:hover{
+    padding: 5px 5px;
+    transition: 0.3s;
+    border: 1px solid rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+}
+
+
+#instalar{
+    top: 5%;
+    left: 45%;
+    background-color: transparent ;
+    backdrop-filter: blur(10px) ;
+    position: absolute;
+    width: 125px;
+    height: 45px;
+    padding:7px 7px;
+    border-radius: 10px;
+    border: 1px solid white;
+    position: absolute;
+    transition: 0.5s;
+}
+#instalar:hover{
+    color: green;
+    border-radius: 10px;
+    border: 1px solid green;
+    position: absolute;
+    transition: 0.5s;
+
+}
+.banner{
+    top: auto;
+    left: auto;
+    width: 100%;
+}
+
+#img{
+    width: 350px;
+    top: 65%;
+    left: 70%;
+    position: absolute;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+#img:hover{
+    width: 400px;
+    left: 68%;
+    position: absolute;
+    transition: 0.5s;
+}
+#img2{
+    width: 350px;
+    top: 100%;
+    left: 70%;
+    position: absolute;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+#img3{
+    width: 350px;
+    top: 135%;
+    left: 70%;
+    position: absolute;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+#img2:hover{
+    width: 400px;
+    left: 68%;
+    position: absolute;
+    transition: 0.5s;
+}
+#img3:hover{
+    width: 400px;
+    left: 68%;
+    position: absolute;
+    transition: 0.5s;
+}
+#text{
+    background-color: rgb(255, 0, 0);
+    backdrop-filter: blur(500px);
+    padding: 20px;
+    border-radius: 20px;
+    top: 70%;
+    left: 5%;
+}
+
+
+.capa{
+    top: 70%;
+    left: 0%;
+    width: 800px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+.meio{
+    height: 520px;
+    width: 935px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+}
+
+.navegation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 70px;
+    height: 17px;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.bar:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+input{
+    display: none;
+}
+
+.imagens{
+    display: flex;
+    width: 1000%;
+    height: 100%;
+}
+
+.slide{
+    width: 10%;
+    transition: .5s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1{
+    margin-left: -10%;
+}
+
+#slide3:checked ~ .s1{
+    margin-left: -20%;
+}
+
+#slide4:checked ~ .s1{
+    margin-left: -30%;
+}
+
+#slide5:checked ~ .s1{
+    margin-left: -40%;
+}
+
+#mobile{
+    background-color: red;
+    padding: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transition: 0.5s;
+}
+#mobile:hover{
+    background-color: rgb(128, 2, 2);
+    padding: 11px;
+    transition: 0.5s;
+}
+
+#PC{
+    background-color: red;
+    padding: 10px;
+    top: 30%;
+    left: 30%;
+    transition: 0.5s;
+}
+#PC:hover{
+    background-color: rgb(128, 2, 2);
+    padding: 11px;
+    transition: 0.5s;
+}
+
+
+
+
+
